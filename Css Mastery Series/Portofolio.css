@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    background-color: bisque;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/*header*/
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    color: black;
+}
+
+/*Hero*/
+.container {
+
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+.hero h1 {
+    color: orangered;
+}
+
+img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero p {
+    margin: 16px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+/*about*/
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+/*Skills*/
+.skills-list {
+    margin-top: 16px;
+    display: flex;
+    gap: 32px;
+}
+
+.skills-list span {
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 1px;
+}
+
+section {
+    margin: 24px;
+    padding: 24;
+}
+
+/*project*/
+.Project {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 24px;
+
+}
+
+.project p {
+    margin: 8px 0px;
+}
+
+.project-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+input,
+textarea {
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 8px;
+
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: orangered;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
